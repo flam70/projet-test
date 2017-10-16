@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ProjectGitApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(ProjectGitApplication.class, args);
+		System.out.println("Projet git");
 	}
 }
