@@ -1,5 +1,6 @@
 package com.qualims.git;
 
+import com.qualims.git.domaine.Personne;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,5 +11,8 @@ public class ProjectGitApplication {
 
 		SpringApplication.run(ProjectGitApplication.class, args);
 		System.out.println("Projet git");
+
+		Personne p = new Personne("DUPOND","Jean");
+		System.out.println(p);
 	}
 }
